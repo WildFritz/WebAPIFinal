@@ -16,7 +16,7 @@ var User = mongoose.model('User', {
         type:Number
     }
 })
-
+//SOmething new
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
